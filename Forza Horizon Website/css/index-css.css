@@ -1,0 +1,249 @@
+body{
+   margin:0;
+   padding:0;
+    font-family: 'Quicksand', sans-serif;
+}
+main{
+    position: relative;
+min-height: 80%;
+}
+html,
+body {
+height: 100%;
+}
+h1{
+    text-shadow: 2px 2px 2px orange;
+    vertical-align: middle;
+    margin-left:5%;
+    display: inline-block;
+    font-size: 90px;
+    width:40%;
+}
+h1 a, footer a{
+    list-style: none;
+    text-decoration: none;
+    color:black;
+}
+nav{
+    padding:20px;
+    vertical-align: middle;
+    display: inline-block;
+    width:50%;
+}
+li{
+    
+    border:1px solid white;
+    border-radius: 30px;
+   padding:20px;
+}
+header nav a{
+   
+    padding:30px;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+    font-size: 60px;
+}
+
+
+li:hover{
+    text-shadow: 2px 2px 2xp black;
+    transition: .1s;
+    background-color: orange;
+    color:white;
+}
+
+li:active{
+    transform: scale(.9);
+}
+@media(max-width:1600px) {
+    nav{
+        border-top:1px solid gray;
+        display: block;
+        width:100%;
+    }
+    
+    .pic-for-name{
+      display: none;
+     }
+    h1{
+        padding:40px;
+       text-align: center;
+        width:100%;
+        margin:0;
+    }
+}
+header{
+    border-bottom: 1px solid gray;
+}
+footer{
+    margin:0 auto;
+   
+    width:80%;
+    
+}
+.background-for-footer{
+    background-color: lightgray;
+}
+.footer-nav li{
+    padding:5px;
+    font-size:20px;
+    display:block;
+}
+.footer-nav a{
+    display: block;
+    padding:5px;
+}
+.First-nav, .Second-nav{
+    vertical-align: middle;
+    display: inline-block;
+}
+.First-nav li, .Second-nav li{
+    border:0px;
+}
+.Second-nav{
+    margin-right:40px;
+}
+<!---->
+header{
+    margin-bottom:0;
+}
+.parallax-layer{
+    background-attachment: fixed;
+    background-size: cover;
+    height:1000px; 
+    object-fit: cover;
+    border-bottom: 1px solid black;
+}
+@media(min-width:1920px){
+    .parallax-layer{
+        background-image: url(../img/forzahorizon5-1-FULLHD.webp);
+       
+    }
+    .Block4{
+        display:none;
+    }
+}
+@media(min-width:2550px){
+    .parallax-layer{
+       
+        background-image: url(../img/forza-horizon-5s-high-speed-feast-is-bigger-than-the-heartiest-appetite_3-4k.jpg);
+       
+    }
+}
+.WelcomeFH5{
+    padding-top:70px;
+    font-size:100px;
+    color:orange;
+    display: block;
+    text-shadow: 2px 2px 2px #000;
+}
+.WelcomeFH5-button{
+    width:400px;
+    border-radius: 30px;
+    padding:50px;
+    font-size:70px;
+    border: 1px solid orange;
+    background-color: white;
+    color:orange;
+    display: block;
+    text-shadow: 2px 2px 2px #000;
+   margin-top:100px;
+}
+.parallax-layer a{
+    text-decoration: none;
+}
+.parallax-layer .WelcomeFH5-button:hover{
+    background-color: orange;
+    color:white;
+}
+.parallax-layer .WelcomeFH5-button:active{
+transition: .1s;
+transform: scale(.9);
+}
+.parallax-layer2{
+    background-attachment: fixed;
+    background-size: cover;
+    height:900px; 
+    object-fit: cover;
+    border-bottom: 1px solid black;
+    background-image: url(../img/Second\ Pic.png);
+    
+}
+
+ .column1,.column2,.column3,.column5,.column4,.column6{
+    margin:0;
+    display: inline-block;
+    width:711px;
+    height:600px;
+    
+
+}
+.Table div{
+    transition:0.2s;
+}
+.Table a:hover div{
+    transition: .2s;
+   
+    transform: scale(1.01);
+}
+.Table img{
+    transition: 1s;
+    width:711px;
+    height:600px;
+}
+.info-forza-main{
+    text-align: justify;
+    font-size: 45px;
+    margin-left:40px;
+    margin-right:40px;
+}
+.Table a:active div{
+    transform:scale(0.9999);
+    transition:0.1s;
+}
+.orage-pic{
+    transition: 1s;
+    display:none;
+}
+.Table a:hover .orage-pic{
+    width:711px;
+    height:600px;
+    transition: 1s;
+    display:block;
+}
+.Table a:hover .main-pic-table{
+    display:none;
+    transition: 1s;
+}
+.Table a:hover .tekst_sverhu_kartinki{
+    display: inline;
+    transition: 1s;
+}
+
+
+    .tekst_sverhu_kartinki {
+    display: none;
+    position: absolute;
+    transition: 1s;
+    top: 20%;
+  
+   left:50px;
+   right:50px;
+    text-transform: uppercase;
+    
+    color: white;
+    
+    font-size: 20px;
+    
+    text-shadow: 1px 1px 1px black;
+    
+    
+    text-align: justify;
+   
+    
+    
+    
+    }
+
